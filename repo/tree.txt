@@ -1,0 +1,21 @@
+.
+└── repo
+    ├── dists
+    │   └── precise
+    │       ├── sphere-experimental
+    │       │   └── binary-amd64
+    │       ├── sphere-stable
+    │       │   ├── binary-amd64
+    │       └── sphere-testing
+    │           ├── binary-amd64
+    └── pool
+        └── precise
+            └── sphere-experimental
+            │   ├── libs
+            │   └── s
+            ├── sphere-stable
+            │   ├── libs
+            │   └── s
+            └── sphere-testing
+                ├── libs
+                └── s
