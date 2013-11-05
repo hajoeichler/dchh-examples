@@ -9,7 +9,7 @@ class sphere::mc(
   ->
   file { "/etc/sphere-mc/application.conf":
     ensure => present,
-    owner => sphere, group => sphere, mode => 0500,
+    owner => sphere, group => sphere, mode => 0600,
     content => template("sphere/application.conf.erb"),
     notify => Service["sphere-mc"]
   }
