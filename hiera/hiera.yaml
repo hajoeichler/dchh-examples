@@ -1,0 +1,18 @@
+---
+:backends:
+ - yamlenc
+ - yaml
+
+:hierarchy:
+  - sphere/production
+  - sphere/production-credentials
+  - sphere/production-version
+  - sphere/common
+  - common
+  - credentials
+
+:yaml:
+  :datadir: /var/lib/ops-automation/hiera/
+
+:yamlenc:
+  :datadir: /var/lib/ops-automation/hiera/
